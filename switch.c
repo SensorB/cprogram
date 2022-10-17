@@ -3,12 +3,12 @@
 int main()
 { 
 	int a,b;
-	char op;
+	int op;
 	printf("\nEnter the Two numbers :");
 	scanf("%d%c%d",&a,&op,&b);
 	switch (op)
 	{
-	case '+':
+	case 43:
 		printf("The result is %d\n",a+b);
 		break;
 	case '-':
